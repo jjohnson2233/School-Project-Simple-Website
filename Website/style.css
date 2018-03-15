@@ -1,0 +1,115 @@
+body {
+    font-family: arial, verdana;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: auto;
+}
+
+h2.pros {
+    color: green
+}
+
+h2.cons {
+    color: red
+}
+
+h3 {
+    position: absolute;
+    left: 5px;
+    top: 600px;
+    font-size: 30px;
+}
+
+aside.info {
+    position: relative;
+    top: 50px
+}
+
+/* --- NAVIGATION BAR --- */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 12px 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+nav ul li a.active {
+    background-color: #ff0000
+}
+
+/* --- SIDEBAR --- */
+
+aside.sidebar {
+    float: right;
+    margin: 0;
+    border-left: 1px;
+    border-color: grey;
+}
+
+aside.sidebar ul {
+    list-style-type: none;
+}
+
+aside.sidebar ul li img {
+    width: 200px;
+}
+
+/* --- WARNING --- */
+
+#warning {
+    color: red;
+}
+
+/* --- TABLE --- */
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    height: 300px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    border: 1px solid black;
+    width: 175px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+}
+
+td.good {
+    background-color: #ffff99;
+}
+
+td.great {
+    background-color: #99ff99;
+}
